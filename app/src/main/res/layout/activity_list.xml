@@ -3,14 +3,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#1DB954"
+    android:background="#333333"
     android:padding="16dp">
 
     <!-- Tiêu đề -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Your Playlist"
+        android:text="Your Likes"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -21,6 +21,6 @@
         android:id="@+id/listSongs"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:divider="#333333"
+        android:divider="#595959"
         android:dividerHeight="1dp" />
 </LinearLayout>
