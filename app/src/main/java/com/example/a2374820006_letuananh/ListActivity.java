@@ -1,15 +1,18 @@
 package com.example.a2374820006_letuananh;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
+import android.widget.ListAdapter;
 import android.widget.ListView;
 import androidx.appcompat.app.AppCompatActivity;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class SongListActivity extends AppCompatActivity {
+public class SongListActivity<SongListAdapter extends ListAdapter> extends AppCompatActivity {
 
     ListView listSongs;
 
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,7 +38,7 @@ public class SongListActivity extends AppCompatActivity {
         songList.add(song3);
 
         // Adapter đơn giản
-        SongListAdapter adapter = new SongListAdapter(this, songList);
+        SongListAdapter adapter = new SongListAdapter();
         listSongs.setAdapter(adapter);
     }
 }
