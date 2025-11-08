@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333333"
+    android:padding="22dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/white_border"
+                android:padding="3dp"
+                app:srcCompat="@drawable/outback"
+                tools:layout_editor_absoluteX="4dp"
+                tools:layout_editor_absoluteY="16dp"
+                tools:ignore="ContentDescription,MissingConstraints" />
+
+            <SearchView
+                android:id="@+id/searchView"
+                android:layout_width="315dp"
+                android:layout_height="35dp"
+                android:background="@drawable/likes"
+                android:iconifiedByDefault="false"
+                android:layout_marginStart="15sp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:queryHint="Tìm bài hát..."
+                app:iconTint="@android:color/white"
+                tools:layout_editor_absoluteX="61dp"
+                tools:layout_editor_absoluteY="16dp"
+                tools:ignore="MissingConstraints" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25sp"
+            android:text="Your Likes"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,TextSizeCheck" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="255dp"
+                android:src="@drawable/shu"
+                tools:ignore="ContentDescription,RtlHardcoded" />
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="10sp"
+                android:src="@drawable/play"
+                tools:ignore="ContentDescription" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15sp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageSong"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical"
+                android:scaleType="centerCrop"
+                android:src="@drawable/vũ"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/textSongName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:text="bình yên / Vũ. ft. Binz"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                tools:ignore="DuplicateIds,HardcodedText" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="95dp"
+                android:layout_marginTop="16dp"
+                app:srcCompat="@drawable/dottrang"
+                tools:ignore="ContentDescription,DuplicateIds,ImageContrastCheck,InefficientWeight" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/lowg"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/textSongName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Low G | Love Game (ft. tlinh)"
+                android:layout_marginStart="15dp"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                tools:ignore="DuplicateIds,HardcodedText" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="45dp"
+                app:srcCompat="@drawable/dottrang"
+                tools:ignore="ContentDescription,DuplicateIds,ImageContrastCheck,InefficientWeight" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/ry"
+                tools:ignore="ContentDescription,DuplicateIds" />
+
+            <TextView
+                android:id="@+id/textSongName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rhymastic - Ngổn Ngang"
+                android:layout_marginStart="15dp"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                tools:ignore="DuplicateIds,HardcodedText" />
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="68dp"
+                app:srcCompat="@drawable/dottrang"
+                tools:ignore="ContentDescription,DuplicateIds,ImageContrastCheck,InefficientWeight" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/obito"
+                tools:ignore="ContentDescription,DuplicateIds" />
+
+            <TextView
+                android:id="@+id/textSongName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Obito - Sài Gòn ơi"
+                android:layout_marginStart="15dp"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                tools:ignore="DuplicateIds,HardcodedText" />
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="120dp"
+                app:srcCompat="@drawable/dottrang"
+                tools:ignore="ContentDescription,DuplicateIds,ImageContrastCheck,InefficientWeight" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/nghiemtong"
+                tools:ignore="ContentDescription,DuplicateIds,ImageContrastCheck" />
+
+            <TextView
+                android:id="@+id/textSongName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2323 - NGHIÊM TỔNG"
+                android:layout_marginStart="15dp"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                tools:ignore="DuplicateIds,HardcodedText" />
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="85dp"
+                app:srcCompat="@drawable/dottrang"
+                tools:ignore="ContentDescription,DuplicateIds,ImageContrastCheck,InefficientWeight" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
